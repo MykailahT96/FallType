@@ -1,0 +1,20 @@
+﻿using UnityEngine;
+
+public class WordManager : MonoBehaviour
+{
+
+    public List<Word> words;
+
+    private void Start()
+    {
+        AddWord();
+        AddWord();
+        AddWord();
+    }
+
+    public void AddWord()
+    {
+        Word word = new Word();
+    }
+
+}
