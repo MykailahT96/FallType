@@ -159,7 +159,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.15686275, a: 1}
+  m_BackGroundColor: {r: 0.19215687, g: 0.2627451, b: 0.13725491, a: 1}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -215,9 +215,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 940226205}
+  - component: {fileID: 940226206}
   - component: {fileID: 940226204}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: WordManager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -232,7 +233,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 940226203}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fc7d5c42f60e67945abbf1c52aadd453, type: 3}
+  m_Script: {fileID: 11500000, guid: b3913d2058194cd41b8682c4f011471c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!4 &940226205
@@ -249,3 +250,15 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &940226206
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 940226203}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25cae10436a2862478dd3ca6c23651bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
